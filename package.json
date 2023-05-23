@@ -1,0 +1,19 @@
+{
+  "name": "randomterminal-msg",
+  "version": "1.0.0",
+  "description": "Random Terminal Messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Oliver Batista <oliver31batista@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "randomterminal-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
